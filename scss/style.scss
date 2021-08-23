@@ -1,0 +1,22 @@
+// Подключаем стили хедера:
+@import "_header";
+
+body{
+    font-size: 20;
+    div{
+        font-size: 10px;
+    }
+}
+
+.block {
+
+    &__item {
+        color: grey;
+    }
+
+    &__element {
+        box-shadow: rgba(0, 0, 0, 0.479) 10px 10px 5px;
+        width: 100px;
+        height: 100px;
+    }
+}

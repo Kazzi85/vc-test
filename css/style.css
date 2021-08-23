@@ -1,0 +1,22 @@
+header h1 {
+  color: green;
+}
+
+body {
+  font-size: 20;
+}
+
+body div {
+  font-size: 10px;
+}
+
+.block__item {
+  color: grey;
+}
+
+.block__element {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.479) 10px 10px 5px;
+          box-shadow: rgba(0, 0, 0, 0.479) 10px 10px 5px;
+  width: 100px;
+  height: 100px;
+}
